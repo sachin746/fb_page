@@ -1,0 +1,213 @@
+#bluebar { 
+    background: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    height: 82px;
+	width: 1536px;
+    position: relative;
+	right: 8px;
+	bottom: 8px;
+}
+#fblogo {
+    font-family: Helvetica, Arial, sans-serif;
+	margin: 9px 0px 0px;
+	color: white;
+	font-size: 43px;
+	font-weight: bold;
+	display: inline-block;
+}
+#fblogo:hover {
+    cursor: pointer;
+}
+.logintable {
+    font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	font-size: 12px;
+	padding: 0px 0px 0px 14px;
+}
+.credentials {
+    border-width: 1px;
+	border-color: rgb(29, 42, 91);
+	border-collapse: separate;
+	padding: 3px 3px 4px;
+	width: 150px;
+	height: 22.6px;
+	font-size: 11.7px;
+}
+#loginlabel {
+    padding-bottom: 3.5px;
+	width: 150px;
+	height: 20px;
+}
+#loginbutton {
+    background-color: rgb(66, 103, 178);
+	border-color: rgb(41, 72, 125);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+	padding: 2px 6px 3px 6px;
+	width: 50px;
+	height: 24px;
+	margin-top: 0.5px;
+}
+#loginbutton:hover {
+    background-color: #3b5998;
+	cursor: pointer;
+}
+#loginbutton:active {
+    background-color: rgb(41, 72, 125);
+}
+#blank {
+    padding: 5px 0px 0px 14px;
+	width: 150px;
+	height: 16px;
+}
+a:hover {
+    text-decoration: underline;
+	text-decoration-color: rgb(156, 180, 216);
+	cursor: pointer;
+}
+a1:hover {
+    text-decoration: underline;
+	text-decoration-color: rgb(56, 88, 152);
+	cursor: pointer;
+}
+a2:hover {
+    text-decoration: underline;
+	text-decoration-color: rgb(56, 88, 152);
+	cursor: pointer;
+}
+input:focus, button:focus, select:focus{
+    outline: none;
+}
+#backgrad {
+	height: 594.5px;
+	width: 1536px;
+	background: linear-gradient(white, #D3D8E8);
+	position: relative;
+	right: 8px;
+	bottom: 8px;
+}
+#quote {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(14, 56, 95);
+	width: 450px;
+	word-spacing: -1px;
+	padding-top: 40px;
+	display: inline-block;
+	line-height: 29px;
+}
+.signup {
+	height:594.5px;
+	width:416.5px;
+	float:right;
+	display:inline-block;
+}
+#createacc {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: rgb(51,51,51);
+	margin-bottom: 5px;
+}
+#facts {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	color: rgb(29, 33, 41);
+	padding-top: 5px;
+}
+.register {
+	height: 38.8px;
+	padding: 8px 10px 8px 10px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(189,199,216);
+	border-style: solid;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Helvetica, Arial, sans-serif;
+	display: inline-block;
+}
+::placeholder {
+	color: rgb(139, 149, 166);
+	position: relative;
+	top: 0.5px;
+	right: 0.9px;
+}
+#bdaygen {
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(144, 148, 156);
+	font-size: 16px;
+	font-weight: 700;
+}
+.birthdate {
+	border-color: rgb(204, 208, 213);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 30px;
+	width: 56.8px;
+	padding: 5px 5px 5px 5px;
+	color: rgb(28, 30, 33);
+	float: left;
+}
+.gens {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 2.3px;
+	position: relative;
+	color: rgb(28, 30, 33);
+	top: 2.5px;
+}
+.terms {
+	color:rgb(119,119,119);
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:11px;
+	position:relative;
+	top:9px;
+	display: inline-block;
+	float: left;
+}
+#signupbutton {
+	width: 194px;
+	height: 39.2px;
+	padding: 7px 20px 7px 20px;
+	border-width: 1px;
+	border-color: rgb(59, 110, 34);
+	border-radius: 5px;
+	background: linear-gradient(rgb(103, 174, 85),rgb(87, 136, 67));
+	box-shadow: rgb(164, 227, 136) 0px 1px 1px 0px inset;
+    font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+	position: relative;
+	top: 44px;
+	right: 114px;
+}
+#signupbutton:active {
+	top: 46px;
+	padding-bottom: 8px;
+}
+#signupbutton:hover {
+	background: linear-gradient(rgb(121, 188, 100),rgb(87, 136, 67));
+	cursor: pointer;
+}
+.extra {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 81px;
+	color: rgb(102, 102, 102);
+}
